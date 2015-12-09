@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import urllib
 import json
 
-url='http://att.pissedconsumer.com/'
+url='http://autodesk.pissedconsumer.com/'
 data= urllib.urlopen(url).read()
 soup=BeautifulSoup(data)
 barters=[]
